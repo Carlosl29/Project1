@@ -50,30 +50,3 @@ table {
 /* End of Eric Meyer css reset */
 /**************************************************/
 
-@font-face {
-	font-family: arvo;
-	src: url('/arvoFonts/Arvo-Regular.ttf');
-}
-
-body {
-	font-family: 'Arvo', sans-serif;
-	text-align: center;
-	padding-left: 5em;
-	padding-right: 5em;
-	padding-top: 3em;
-	background-image: url("/pictures/background.jpg"); 
-}
-
-form {
-	padding: 10%;
-	background-color: red;
-}
-
-h1 {
-	font-size: 1.25em;
-}
-
-p {
-	padding-bottom: .3125em;
-	padding-top: .625em;
-}
