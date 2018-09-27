@@ -52,8 +52,8 @@ table {
 
 body {
 	margin: 0;
-	padding: 0;
-	background: url("/Image/UB-General-Body-Meeting-Poster.png");
+	padding: 5%;
+	background: url("background.png");
    	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Arvo', serif;	
@@ -66,15 +66,15 @@ h1 {
 
 .frmBox {
 	width: 90%;
-	height: 40%;
-	background: #810a0d;
+	height: 45%;
+	background: #2ec1fa;
 	color: #fff;
-	top: 45%;
+	top: 40%;
 	left: 52%;
     position: absolute;
 	box-sizing: border-box;
-	padding: 2em 3em 3em;
-	border: 1px solid #00CED1;
+	padding: 1em 3em 3em;
+	border: .33em solid #6bf361;
 	transform: translate(-50%,-50%);
 }
 
@@ -85,7 +85,6 @@ h1 {
 
 	margin-left: 40%;
 	margin-right: 40%;
-	margin-top: 5%;
 	padding-left: 10%;
 	padding-right: 10%;
 }
