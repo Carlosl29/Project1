@@ -61,22 +61,26 @@ body {
 
 h1 {
 	font-size: 1.75em;
+
 }
 
 .frmBox {
 	width: 90%;
-	height: 30%;
+	height: 40%;
 	background: #810a0d;
 	color: #fff;
-	top: 50%;
-	left: 50%;
+	top: 45%;
+	left: 52%;
     position: absolute;
 	box-sizing: border-box;
-	padding: 2em 3em;
+	padding: 2em 3em 3em;
 	border: 1px solid #00CED1;
 	transform: translate(-50%,-50%);
 }
 
+.frmBox div{
+	margin-top: 5%;
+}
 .frmBox .subBtn {
 
 	margin-left: 40%;
