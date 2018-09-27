@@ -50,3 +50,38 @@ table {
 /* End of Eric Meyer css reset */
 /**************************************************/
 
+body {
+	margin: 0;
+	padding: 0;
+	background: url("/Image/UB-General-Body-Meeting-Poster.png");
+   	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Arvo', serif;	
+}
+
+h1 {
+	font-size: 1.75em;
+}
+
+.frmBox {
+	width: 90%;
+	height: 30%;
+	background: #810a0d;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+    position: absolute;
+	box-sizing: border-box;
+	padding: 2em 3em;
+	border: 1px solid #00CED1;
+	transform: translate(-50%,-50%);
+}
+
+.frmBox .subBtn {
+
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-top: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+}

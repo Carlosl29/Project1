@@ -5,26 +5,30 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="screen.css" />
-  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet"> 
 </head>
 <body>
 <form>
 	<div class="frmBox" method="get">
-		<h1>Basic Information Form</h1>
+		<h1>Join Union Board Newsletter</h1>
+		<div class="nameBox">
+			<label>Name:</label>
+			<input type="name" name="nmB" size="28.5">
+		</div>
 		<div class="emailBox">
-			<label>Email: </label>
-			<input type="Email" name="usrEmail">
+			<label for="email">Email:</label> 
+			<input type="email" name="email" placeholder="you@yourwebsite.com" size="29" /> 
 		</div>
 		<div class="phoneBox">
 			<label>Phone Number: </label>
-			<input type="tel" name="usrPhone">
+			<input type="tel" name="usrPhone" size="20">
 		</div>
 		<div class="birthBox">
 			<label>Date of Birth: </label>
-			<input type="Date" name="usrBirthday">
+			<input type="Date" name="usrBirthday" /> 
 		</div> 
 		<div>
-			<input type="submit" name="Submit">
+			<input class="subBtn" type="submit" name="Submit" value="Sign Me Up!">
 		</div>
 	</div>
 </form>
