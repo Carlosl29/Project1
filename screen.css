@@ -71,8 +71,8 @@ h1 {
 	height: 37em;
 	background: #2ec1fa;
 	color: #ffff;
-	top: 45%;
-	left: 60%;
+	top: 40%;
+	left: 50%;
 	bottom: 40%;
     position: absolute;
     align-content: center;
@@ -96,17 +96,20 @@ h1 {
 }
 
 button {
-	background-color: #737373;
-	border: none;
+	background-color: white;
+	border: solid;
 	border-radius: 6px;
 	display: inline-block;
 	font-size: 1em;
+	color: #535353;
+	border-color: #6bf361;
 }
 
 
 .frmBox .subBtn{
 	margin-left: 40%;
 	margin-right: 40%;
+	margin-bottom: 10%;
 	display: inline-block;
 	border: solid;
 	border-color: #6bf361;
