@@ -62,7 +62,10 @@ body {
 }
 
 h1 {
-	font-size: 3.375em;
+	/*Octave scale to make the heading text larger than
+	button text */
+	font-size: 4em;
+	font-family: 'Arvo', serif;
 
 }
 
@@ -93,6 +96,16 @@ h1 {
 	border-radius: 6px;
 	color: #111111;
 	width: 12em;
+}
+
+#input{
+	font-size: 2em;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#mChoice{
+	font-size: 1em;
+	font-family: 'Fahkwang', sans-serif;
 }
 
 button {
