@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
 <head>
-  <title>Lab 2</title>
+  <title>Project 1</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="screen.css" />
@@ -12,28 +12,36 @@
 	<div class="frmBox">
 		<h1>Join Union Board Newsletter</h1>
 		<div class="nameBox">
-			<label>Name:</label>
-			<input type="text" name="nmB" size="20">
+			<input type="text" id="name" name="nmB" size="20" value="Name">
 		</div>
 		<div class="emailBox">
-			<label>Email:</label> 
-			<input type="email" name="email" placeholder="you@yourwebsite.com" size="20" /> 
+			<input type="email" id="email" name="email" placeholder="you@yourwebsite.com" size="20" /> 
 		</div>
 		<div class="phoneBox">
+<<<<<<< HEAD
 			<label>Phone Number: </label>
 			<input type="tel" name="usrPhone" size="20"/>
+=======
+			<input type="tel" id="phone" name="usrPhone" size="20" value="(773)-123-4567">
+>>>>>>> 0a67fd7ac4db5a2aec9c9f2d20cc37a97c55e695
 		</div>
 		<div class="birthBox">
 			<label>Date of Birth: </label>
-			<input type="Date" name="usrBirthday" /> 
+			<input type="Date" name="usrBirthday" value="Date of Birth" /> 
 		</div> 
 		<div class="comittee">
 			<label>Which comittee would you like to joing?</label>
-			<div class="choices">
-				<input type="checkbox" name="oncampus" value="On-Campus"> On-Campus
-				<input type="checkbox" name="offcampus" value="Off-Campus"> Off-Campus
-				<input type="checkbox" name="music" value="Music & Dance"> Music & Dance
-				<input type="checkbox" name="bog" value="The BOG"> The BOG
+			<div class="onCampus">	
+				<button id="btnOnCampus">On-Campus</button>
+			</div>
+			<div class="offCampus">	
+				<button id="btnOffCampus">Off-Campus</button>
+			</div>
+			<div class="mscDnc">	
+				<button id="btnMscDnc">Music & Dance</button>
+			</div>
+			<div class="bog">	
+				<button id="btnBOG">The BOG</button>
 			</div>
 		</div>
 		<div>
